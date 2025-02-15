@@ -8,6 +8,8 @@ services:
       DISK_SIZE: "64G"
       RAM_SIZE: "8G"
       CPU_CORES: "4"
+      USERNAME: "docker"
+      PASSWORD: "docker"
     devices:
       - /dev/kvm
     cap_add:
