@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "10"
+      VERSION:  "ltsc10"
     environment:
       DISK_SIZE: "64G"
       RAM_SIZE: "8G"
